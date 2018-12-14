@@ -5,6 +5,7 @@ Forked from skyliuc/-demo
 https://www.cnblogs.com/neo-T/p/6511273.html
 
 
+第一步  
 
 函数名：new_face_data.py  
 作用　：为模型训练准备人脸数据  
@@ -12,12 +13,21 @@ https://www.cnblogs.com/neo-T/p/6511273.html
 　　　　举例：python face_data.py   
 依赖　：opencv-python , sys, dlib的人脸检测器  
 按照提示输出姓名和数字，如果键入c的话，退出采集  
-  
+
+
+
+第二步  
+
 函数名：load_face_dataset.py  
 作用　：加载图片调整指定大小并标注数据到内存  
 用法　：python load_face_dataset.py pathname,只不过这里只是把它封装成一个接口  
 依赖　：os ,sys ,numpy ,opencv  
-  
+
+
+第三步  
+
+
+
 函数名：face_train_use_keras.py  
 作用　：  
 1）按照交叉验证的原则将数据集划分成三部分：训练集、验证集、测试集；  
@@ -29,6 +39,13 @@ https://www.cnblogs.com/neo-T/p/6511273.html
 用法　：python face_train_use_keras.py  
 依赖　：sklearn ,keras, random等具体见代码  
    	
+
+
+
+第四步  
+
+
+
 函数名：face_predict_use_keras.py  
 作用　：从视频流中识别我-liuhc或者朋友-zyq  
 用法　：python face_predict_use_keras.py  
